@@ -1,15 +1,26 @@
 figure {
-    background-color: blue;
+    background-color: rgb(255,117,20);
     text-align:center;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     width: 700px;
 }
 figcaption {
     border: 5px;
-    font-style: oblique;
+    font-style: normal;
     font-size:42px;
-  }
-  p{
-font-size: 20px;
-  }
+}
+p {
+font-size: 22px;
+}
+.back_button {
+    margin-top: 0px;
+    margin-left: 310px;
+}
+.forward_button {
+    margin-top: -20px;
+    margin-left: 400px;
+}
+h{
+  font-size:32px;
+}

@@ -1,4 +1,51 @@
-.position{
-    margin-top: 240px; /* Сдвиг вниз на 50 пикселей */
-    margin-left: 150px; /* Сдвиг вправо на 50 пикселей */
+.block1{
+    font-weight: bold;
+    margin-top: 72px;
+    margin-left: 88px;
+}
+.block2{
+    margin-top: 10px;
+    margin-left: 88px;
+}
+.block3{
+    margin-top: -20px;
+    margin-left: 250px;
+}
+.block4{
+    font-weight: bold;
+    margin-top: 183px;
+    margin-left: 200px;
+}
+.block5{
+    margin-top: 25px;
+    margin-left: 210px;
+}
+.block6{
+    margin-top: 5px;
+    margin-left: 205px;
+}
+.block7{
+    margin-top: -90px;
+    margin-left: 170px;
+}
+.block8{
+    margin-top: -20px;
+    margin-left: 250px;
+}
+.block9{
+    margin-top: 5px;
+    margin-left: 210px;
+}
+.photo{
+    margin-top: -40px;
+    margin-left: 5px;
+    max-width: 50%;
+}
+.photo{
+    margin-top: -40px;
+    margin-left: 5px;
+}
+.button1{
+    margin-top: 100px;
+    margin-left: 500px;
 }
