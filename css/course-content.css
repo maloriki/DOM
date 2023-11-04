@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+*, *:before, *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+    text-align: center;
+    margin: 100;
+    padding: 1rem calc(50% - 585px);
+    border: 10px solid #3498db; /* Границы от веб-страницы */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; /* Отступы между блоками */
+}
+
+.block {
+    text-align: center;
+    width: 300px; /* Ширина блока */
+    border: 2px solid #3498db; /* Границы блока */
+    border-radius: 10px;
+    padding: 10px; /* Внутренний отступ блока */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    margin-top: 10px; /* Отступ между изображением и текстом */
+    font-family: 'Lato', sans-serif;
+}

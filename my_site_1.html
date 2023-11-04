@@ -1,10 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
 </head>
 <body>
-$END$
+<nav role='navigation'>
+    <ul>
+        <li><a href="my_site_1.html" target="_self" class="active">Главная</a></li>
+        <li><a href="courses.html">Курсы</a></li>
+        <li><a href="about_postupashki.html" class="dropbtn">О поступашках</a>
+            <ul>
+                <li><a href="about_postupashki.html#about_postupashki">Про поступашки</a></li>
+                <li><a href="about_postupashki.html#our_team">Наша команда</a></li>
+                <li><a href="about_postupashki.html#our_students">Наши ученики</a></li>
+            </ul>
+        </li>
+        <li><a href="social_media.html">Социальные сети</a></li>
+        <li><a href="form.html" target="_self">Записаться на курс</a></li>
+        <li><a href="https://vk.com/postypashki" target="_blank"><img src="images/postupashki (1).jpg" height="30"
+                                                                      width="30"
+                                                                      alt="postupashki"></a></li>
+    </ul>
+</nav>
+
+<div class="rectangle">
+    <div class="row">
+        <div class="column">
+            <figure>
+                <a href="courses.html"><img src="images/teor_ver.jpg" height="200" width="400" alt="teorver_course"></a>
+                <div class="text">
+                    <figcaption><a href="courses.html">Наши курсы</a></figcaption>
+                </div>
+            </figure>
+        </div>
+        <div class="column">
+            <figure>
+                <a href="about_postupashki.html"><img src="images/team.jpg" height="200" width="400" alt="team"></a>
+                <div class="text">
+                    <figcaption><a href="about_postupashki.html">Наша команда</a></figcaption>
+                </div>
+            </figure>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <figure>
+                <a href="form.html"><img src="images/blin.png" height="200" width="400" alt="blin"></a>
+                <div class="text">
+                    <figcaption><a href="form.html">Записаться на курс</a></figcaption>
+                </div>
+            </figure>
+        </div>
+        <div class="column">
+             <figure>
+                <a href="courses.html"><img src="images/media.jpg" height="200" width="400" alt="social_media"></a>
+                <div class="text">
+                    <figcaption><a href="courses.html">Наши социальные сети</a></figcaption>
+                </div>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<form action="https://yandex.ru/search/?" target="_blank" class="registration-form">
+    <h2>Оставить отзыв о сайте</h2>
+    <label for="order">Курсы в которых в участвовали:</label>
+    <textarea id="order" name="orders"></textarea>
+
+    <label for="review">Комментарий:</label>
+    <textarea id="review" name="reviews"></textarea>
+
+    <label for="subscribe">Подписаться на рассылку:</label>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="hidden-value">Значение по умолчанию:</label>
+    <input type="hidden" id="hidden-value" name="default_value" value="some_default_value">
+
+    <input type="submit" value="Отправить">
+</form>
+
 </body>
 </html>

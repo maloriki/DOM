@@ -1,10 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
 </head>
 <body>
-$END$
+<nav role='navigation'>
+    <ul>
+        <li><a href="my_site_1.html" target="_self">Главная</a></li>
+        <li><a href="courses.html">Курсы</a></li>
+        <li><a href="about_postupashki.html" class="dropbtn">О поступашках</a>
+            <ul>
+                <li><a href="about_postupashki.html#about_postupashki">Про поступашки</a></li>
+                <li><a href="about_postupashki.html#our_team">Наша команда</a></li>
+                <li><a href="about_postupashki.html#our_students">Наши ученики</a></li>
+            </ul>
+        </li>
+        <li><a href="social_media.html">Социальные сети</a></li>
+        <li><a href="form.html" target="_self" class="active">Записаться на курс</a></li>
+        <li><a href="https://vk.com/postypashki" target="_blank"><img src="images/postupashki (1).jpg" height="30"
+                                                                      width="30"
+                                                                      alt="postupashki"></a></li>
+    </ul>
+</nav>
+
+
+<form action="https://www.yandex.ru/search?" id="UserEnter" name="UserName" target="_blank" class="registration-form">
+    <h2>Записаться на курс</h2>
+    <ul>
+        <li>
+            <label for="last-name">Фамилия:</label>
+            <input type="text" id="last-name" name="last_name" required>
+        </li>
+        <li>
+            <label for="first-name">Имя:</label>
+            <input type="text" id="first-name" name="first_name" required>
+        </li>
+        <li>
+            <label for="middle-name">Отчество:</label>
+            <input type="text" id="middle-name" name="middle_name" required>
+        </li>
+        <li>
+            <label for="phone">Номер телефона:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </li>
+        <li>
+            <label for="telegram">Логин в Telegram:</label>
+            <input type="text" id="telegram" name="telegram" required>
+        </li>
+        <li align="left">
+            <label>Выбор курсов:</label>
+            <label>
+                <input type="checkbox" id="course1" name="courses[]" value="Курс 1">
+                Курс по машинному обучению
+            </label>
+            <label>
+                <input type="checkbox" id="course2" name="courses[]" value="Курс 2">
+                Курс по data science
+            </label>
+            <label>
+                <input type="checkbox" id="course3" name="courses[]" value="Курс 3">
+                Курс по бекенду
+            </label>
+        </li>
+        <li>
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" required>
+        </li>
+        <li>
+            <label for="message-date">Дата отправки сообщения:</label>
+            <input type="date" id="message-date" name="message_date" required>
+        </li>
+        <li>
+            <input type="submit" id="submit" value="Записаться">
+        </li>
+    </ul>
+</form>
+
+
 </body>
 </html>

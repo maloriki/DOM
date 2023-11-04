@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрирование по вертикали */
+    align-items: center; /* Центрирование по горизонтали */
+    height: 100vh; /* Высота контейнера равна высоте видимого экрана */
+}
+
+.image-link {
+    margin-top: 20px; /* Отступ между изображением и ссылкой */
+    text-align: center; /* Выравнивание текста по центру */
+}

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title> Таблицы</title>
+    <title>form_ar</title>
 </head>
 <body>
 
 <table align="center" border=1 cellpadding="5" cellspacing="1" width="600px">
 
     <tr>
-        <td>Заголовок всего сайта</td>
+        <td>DOM, JS. Форма с решением алгоритмической задачи</td>
     </tr>
 
 
@@ -19,7 +19,8 @@
                 <li><a href="task_1.2.html" target="_self">DOM, JS. Считываем информацию из DOM</a>
                 <li><a href="task_1.3.html" target="_self">DOM, JS. Изменяем личные данные на латинские
                     символы</a>
-                <li><a href="task_1.4.html" target="_self"><b>DOM, JS. Решение алгоритмической задачи</b></a>
+                <li><a href="task_1.4.html" target="_self">DOM, JS. Решение алгоритмической задачи</a>
+                <li><a href="task_1.5.html" target="_self"><b>DOM, JS. Форма с решением алгоритмической задачи</b></a>
             </ul>
         </td>
     </tr>
@@ -28,17 +29,29 @@
         <td>
             <!--Уникально содержание страницы-->
             <h3 align="center" id="start">DOM, JS. Решение алгоритмической задачи</h3>
-            <p>1017. Дано вещественное число A. Вычислить x = a**4,
-                при a < 10; x = a при a > 61, в противном случае x = a − sin(a**2)).
+            <p>
+                1003. Можно ли из бревна, имеющего диаметр поперечного сечения D, выпилить квадратный брус шириной A?
             </p>
-            <form>
-                <label for="number">Найти число x: </label>
-                <input type="number" id="number" name="number" placeholder="введите число A">
-                <input type="button" name="output" value="Отправить">
+            <form action="https://www.yandex.ru/search?" id="UserEnter" name="UserName" target="_blank">
+                <ul>
+                    <input type="text" name="some_text" value="search">
+                    <li>
+                        <label for="diameter">Диаметр D: </label>
+                        <input type="number" id="diameter" name="numberD" placeholder="введите диаметр D">
+                    </li>
+                    <li>
+                        <label for="width">Ширина A: </label>
+                        <input type="number" id="width" name="numberW" placeholder="введите ширину A">
+                    </li>
+                    <li> Результат решения:
+                        <input type="text" id="result" name="result" value="не определён">
+                    </li>
+                    <li><input type="button" id="verify" value="Проверить"></li>
+                    <li><input type="button" id="send_server" value="Отправить"></li>
+                </ul>
             </form>
-            <script src="scripts/task_1.4.js"></script>
+            <script src="scripts/task_1.5.js"></script>
         </td>
-
 
 
 </table>

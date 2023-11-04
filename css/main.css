@@ -1,0 +1,41 @@
+/* Стили для прямоугольника, разделенного на 4 части */
+.rectangle {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex: 1;
+    padding: 10px; /* Добавляем отступы внутри каждого блока */
+    border: 1px solid #ccc;
+    text-align: center; /* Центрирование содержимого по горизонтали */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Центрирование изображения по горизонтали */
+}
+
+.column p {
+    margin-top: 10px;
+}
+
+.text {
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}

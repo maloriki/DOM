@@ -1,10 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
 </head>
 <body>
-$END$
+<nav role='navigation'>
+    <ul>
+        <li><a href="my_site_1.html" target="_self">Главная</a></li>
+        <li><a href="courses.html">Курсы</a></li>
+        <li><a href="about_postupashki.html" class="dropbtn" class="active">О поступашках</a>
+            <ul>
+                <li><a href="#about_postupashki">Про поступашки</a>
+                </li>
+                <li><a href="#our_team">Наша команда</a>
+                </li>
+                <li><a href="#our_students">Наши ученики</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="social_media.html">Социальные сети</a></li>
+        <li><a href="form.html" target="_self">Записаться на курс</a></li>
+        <li><a href="https://vk.com/postypashki" target="_blank"><img src="images/postupashki (1).jpg" height="30"
+                                                                      width="30"
+                                                                      alt="postupashki"></a></li>
+    </ul>
+</nav>
+<div class="course-info">
+
+    <div class="block0">
+        <h1 id="about_postupashki"><p>Мы крутая команда преподавателей и учителей...</p></h1>
+        <p>Мы занимаемся подготовкой к олимпиадам на протяжении 6 лет и подготовке к собеседованиям и приему на работу.</p>
+    </div>
+
+    <div class="block1">
+        <h2 id="our_team"><p>Наши преподаватели</p></h2>
+        <a href="pasha.html" target="_self"><img src="images/pasha.jpg" align="left" height="100" width="100"
+                                                 alt="pasha"></a>
+        <p>Это Павел он ведет курс по бекенду является абсолютным победителем олимпиады "Покори Воробьевы Горы"</p>
+    </div>
+    <div class="block2">
+        <a href="max.html" target="_self"><img src="images/max.jpg" align="right" height="100" width="100"
+                                                 alt="pasha"></a>
+        <p>Это Михаил Абрамович. Он ведет курсы по олимпиадной математике и по научному коммунизму</p>
+    </div>
+
+    <div class="block3">
+        <a href="stolyaric.html" target="_self"><img src="images/stolyaric.jpg" align="left" height="100" width="100"
+                                                 alt="pasha"></a>
+        <p>Это Влад. Он ведет курсы по программированию он занимается разработкой и машинным обучением</p>
+    </div>
+    <div class="block4" id="our_students">
+        <h2><p>Список наших учеников победителей и призеров олимпиад</p></h2>
+        <table align="center" border=2 cellpadding="5" cellspacing="2" width="600px">
+            <tr>
+                <td>
+                    <ul>
+                        <li><a href="https://vk.com/sofisticboy" target="_blank">артем биксалин</a><img
+                                src="images/russia.png" height="10"
+                                width="15" alt="russia"></li>
+                        <li>иван иванов</a><img
+                                src="images/russia.png" height="10"
+                                width="15" alt="russia"></li>
+                        <li><a href="https://vk.com/kirill_verendeev">кирилл верендеев</a></a><img
+                                src="images/chu.png" height="10"
+                                width="15" alt="russia"></li>
+                        <li>юрий русаков</a><img
+                                src="images/russia.png" height="10"
+                                width="15" alt="russia"></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="block5">
+        <h2><p>Список олимпиад к которым готовым</p></h2>
+        <table align="center" border=2 cellpadding="5" cellspacing="2" width="600px">
+            <tr>
+                <td background="images/stolyaric.jpg" alt="postupashki">
+                    <ol type="I">
+                        <li>
+                            <ol>
+                                <li>ВСОШ</li>
+                                <li>Высшая проба</li>
+                                <li>Ломоносов</li>
+                                <li>Физтех</li>
+                                <li>Олимпиада Ломоносова</li>
+                                <li>ПВГ</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <ol>
+                                <li>ОММО</li>
+                                <li>РОСАТОМ</li>
+                                <li>ИТМО</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <ol>
+                                <li>САММАТ</li>
+                                <li>Миссия выполнима</li>
+                                <li>Шаг в будущее</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
 </body>
 </html>
