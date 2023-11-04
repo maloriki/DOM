@@ -41,3 +41,6 @@ th, td {
     padding: 8px; /* Внутренние отступы для ячеек */
     text-align: left; /* Выравнивание текста слева */
 }
+.stretch{
+  background-size: 200px 150px;
+}

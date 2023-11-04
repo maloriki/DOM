@@ -10,10 +10,13 @@ function solve(){
 
 function verify_result(){
     check = solve();
-    if (check)
+    if (check){
         result.value = "можно выпилить брус из бревна";
-    else
+        document.getElementById("result_text").innerText = result_text + " можно выпилить брус из бревна.";
+    } else{
         result.value = "нельзя";
+        document.getElementById("result_text").innerText = result_text + " нельзя";
+    }
 
 }
 
@@ -32,6 +35,7 @@ diameter.addEventListener("input", verify_result);
 const width = document.getElementById("width");
 width.addEventListener("input", verify_result);
 
+let result_text = document.getElementById("result_text").innerText
 const result = document.getElementById("result");
 const verify = document.getElementById("verify");
 const submit = document.getElementById("send_server");

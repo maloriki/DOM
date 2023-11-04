@@ -9,11 +9,6 @@
 <table align="center" border=1 cellpadding="5" cellspacing="1" width="600px">
 
     <tr>
-        <td>DOM, JS. Форма с решением алгоритмической задачи</td>
-    </tr>
-
-
-    <tr>
         <td>
             <ul>
                 <li><a href="task_1.2.html" target="_self">DOM, JS. Считываем информацию из DOM</a>
@@ -34,7 +29,6 @@
             </p>
             <form action="https://www.yandex.ru/search?" id="UserEnter" name="UserName" target="_blank">
                 <ul>
-                    <input type="text" name="some_text" value="search">
                     <li>
                         <label for="diameter">Диаметр D: </label>
                         <input type="number" id="diameter" name="numberD" placeholder="введите диаметр D">
@@ -44,8 +38,9 @@
                         <input type="number" id="width" name="numberW" placeholder="введите ширину A">
                     </li>
                     <li> Результат решения:
-                        <input type="text" id="result" name="result" value="не определён">
+                        <input type="text" id="result" name="result" value="не определён" width="300">
                     </li>
+                    <li><p id="result_text">Результат решения:</p></li>
                     <li><input type="button" id="verify" value="Проверить"></li>
                     <li><input type="button" id="send_server" value="Отправить"></li>
                 </ul>
