@@ -1,0 +1,83 @@
+#content {
+  position:relative;
+}
+
+/* --------------------------------------------------------	*/
+/*  Home  */
+/* --------------------------------------------------------	*/
+
+.ic-1 {
+  width:45px;
+  height:30px;
+  font-size:34px;
+  float:left;
+}
+
+.ic-1 i {
+  color:#fb8865;
+}
+
+.title-1 {
+  color:#3c3c3c;
+  float:left;
+  font-size:16px;
+  line-height:30px;
+}
+
+.title-1 h4 {
+  padding-top:4px;
+}
+
+.text-1 {
+  padding-left:45px;
+  clear:both;
+}
+
+.title-2 {
+  font-size:16px;
+  padding:15px 0;
+}
+
+.square-1 {
+  color:#83adff;
+  padding-bottom:24px;
+}
+
+.square-1 img {
+  -webkit-transition: all .3s ease;
+}
+
+.square-1:hover img {
+  opacity:0.3;
+  filter:alpha(opacity=30); /* For IE8 and earlier */
+  -webkit-transition: all .4s ease;
+}
+
+.img-container {
+  position:relative;
+}
+
+.img-bg-icon {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background: url(../img/zoom-icon.png) center center no-repeat;
+  cursor:pointer;
+  display:none;
+}
+
+.square-1:hover .img-bg-icon {
+  display:block;
+}
+
+.h-button {
+  position:absolute;
+  height:auto !important;
+}
+
+.h-button h3 {
+  padding:15px 20px;
+  font-size:22px;
+}
