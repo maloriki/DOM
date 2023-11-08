@@ -13,7 +13,7 @@ body {
     text-align: center;
     margin: 100;
     padding: 1rem calc(50% - 585px);
-    border: 10px solid #3498db; /* Границы от веб-страницы */
+    border: 10px solid #3498db;
 }
 
 nav{

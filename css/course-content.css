@@ -13,21 +13,21 @@ body {
     text-align: center;
     margin: 100;
     padding: 1rem calc(50% - 585px);
-    border: 10px solid #3498db; /* Границы от веб-страницы */
+    border: 10px solid #3498db;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
-    padding: 20px; /* Отступы между блоками */
+    padding: 20px;
 }
 
 .block {
     text-align: center;
-    width: 300px; /* Ширина блока */
-    border: 2px solid #3498db; /* Границы блока */
+    width: 300px;
+    border: 2px solid #3498db;
     border-radius: 10px;
-    padding: 10px; /* Внутренний отступ блока */
+    padding: 10px;
 }
 
 img {
@@ -36,6 +36,6 @@ img {
 }
 
 .text {
-    margin-top: 10px; /* Отступ между изображением и текстом */
+    margin-top: 10px;
     font-family: 'Lato', sans-serif;
 }

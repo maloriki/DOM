@@ -37,9 +37,9 @@ table {
     text-align: left;
 }
 th, td {
-    border: 1px solid #000; /* Границы для всех ячеек */
-    padding: 8px; /* Внутренние отступы для ячеек */
-    text-align: left; /* Выравнивание текста слева */
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
 }
 .stretch{
   background-size: 200px 150px;
